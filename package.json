@@ -1,0 +1,31 @@
+{
+  "name": "grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakhaTF/grpc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RakhaTF/grpc/issues"
+  },
+  "homepage": "https://github.com/RakhaTF/grpc#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.10",
+    "@grpc/proto-loader": "^0.7.13",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "ts-proto": "^1.181.0"
+  },
+  "devDependencies": {
+    "@types/google-protobuf": "^3.15.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
