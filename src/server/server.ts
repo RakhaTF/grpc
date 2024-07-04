@@ -1,6 +1,6 @@
 import { fastify } from "fastify";
 import { fastifyConnectPlugin } from "@bufbuild/connect-fastify";
-import routes from "./connect"
+import routes from "./routes/connect"
 import { AppDataSource } from "../plugin/mysql/mysql"
 
 const server = fastify({
